@@ -1,9 +1,13 @@
-import Image from 'next/image'
 
-export default function Home() {
+import ProductList from "@/components/ProductList/ProductList"
+
+
+
+export default async function Home() {
+
   return (
-    <main>
-      homePage
-    </main>
+   <main className='max-w-screen-xl mx-auto'>
+    <ProductList />
+   </main>
   )
 }
